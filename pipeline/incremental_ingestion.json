@@ -46,7 +46,7 @@
 				]
 			},
 			{
-				"name": "Lookup",
+				"name": "Lookup1",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
@@ -70,14 +70,15 @@
 						}
 					},
 					"dataset": {
-						"referenceName": "my_json",
+						"referenceName": "json_data",
 						"type": "DatasetReference",
 						"parameters": {
 							"container": "bronze",
 							"folder": "cdc",
 							"file": "cdc.json"
 						}
-					}
+					},
+					"firstRowOnly": false
 				}
 			}
 		],
