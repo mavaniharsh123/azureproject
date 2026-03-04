@@ -46,7 +46,7 @@
 				]
 			},
 			{
-				"name": "last_cdc",
+				"name": "Lookup",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
@@ -70,12 +70,12 @@
 						}
 					},
 					"dataset": {
-						"referenceName": "json_dynamic",
+						"referenceName": "my_json",
 						"type": "DatasetReference",
 						"parameters": {
 							"container": "bronze",
 							"folder": "cdc",
-							"file": "cdc.json "
+							"file": "cdc.json"
 						}
 					}
 				}
